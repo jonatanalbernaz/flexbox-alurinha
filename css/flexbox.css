@@ -8,8 +8,20 @@
 	display: flex;
 }
 
+/* Course Map */
 
-/* Footer */
+.rodapePrincipal-navMap-list {
+	display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+	display: flex;
+	flex-direction: column;
+	height: 260px;
+	flex-wrap: wrap;
+}
+
+/* Footer Final */
 
 .rodapePrincipal-patrocinadores .container {
 	display: flex;
@@ -32,3 +44,4 @@
 .rodapePrincipal-contatoForm-fieldset {
 	display: flex;
 }
+
