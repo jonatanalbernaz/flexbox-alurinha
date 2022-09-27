@@ -68,6 +68,26 @@
 	display: flex;
 }
 
+.videoSobre .container {
+    display: flex;
+		
+}
+
+.videoSobre-sobre {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2;
+}
+
+.videoSobre-sobre-list {
+	flex-grow: 3;
+}
+
+.videoSobre-video {
+	flex-grow: 1;
+}
+
 
 /* MOBILE */
 @media screen and (max-width: 768px){
@@ -119,4 +139,8 @@
 	.rodapePrincipal-contatoForm-fieldset {
 		justify-content:center
 	}	
+
+	.cabecalhoPrincipal-nav-link-app {
+		order: -1;
+	}
 }
